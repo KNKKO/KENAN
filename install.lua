@@ -70,7 +70,7 @@ RunBot:write([[
 cd $HOME/KENAN
 token="]]..database:get(Server_Done.."Token_Write")..[["
 rm -fr KENAN.lua
-wget "https://raw.githubusercontent.com/KENANNTEAM/KENAN/main/KENAN.lua"
+wget "https://raw.githubusercontent.com/KNKKO/KENAN/main/KENAN.lua"
 while(true) do
 rm -fr ../.telegram-cli
 ./tg -s ./KENAN.lua -p PROFILE --bot=$token
